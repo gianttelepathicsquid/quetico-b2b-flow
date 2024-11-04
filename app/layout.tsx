@@ -8,7 +8,10 @@ export const metadata: Metadata = {
   title: 'Quetico B2B Distribution & Fulfillment',
   description: 'Interactive guide to B2B fulfillment capabilities and integrations',
   icons: {
-    icon: '/favicon.ico',
+    icon: [
+      { url: '/favicon.ico' },
+      { url: '/favicon.svg', type: 'image/svg+xml' }
+    ],
   },
 }
 
